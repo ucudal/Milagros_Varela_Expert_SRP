@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+
+Este código no respeta el principio SRP ya que la clase Book tiene dos responsabilidades: construir cada libro
+y ubicarlo en la estantería. Para evitar que haya más de una razón de cambio se debe crear una clase para cada responsabilidad.
+
+using System;
 
 namespace SRP
 {
@@ -26,3 +31,5 @@ namespace SRP
 
     }
 }
+
+*/
